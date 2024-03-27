@@ -5,6 +5,7 @@ packages=(
   "wget"
   "gzip"
   "conda-forge::tar"
+  "conda-forge::ipykernel"
 )
 
 for package in $packages; do
