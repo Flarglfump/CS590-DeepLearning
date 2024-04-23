@@ -16,7 +16,7 @@ cd $DATADIR
 
 DATADIR=(`pwd`)
 
-for FILE in $DATADIR/*; do
+for FILE in $DATADIR/*.gz; do
   echo gunzip $FILE
   gunzip $FILE
 done
